@@ -26,7 +26,7 @@ parser.add_argument('--dataset', default='GoPro', type=str, help='Test Dataset')
 args = parser.parse_args()
 
 ####### Load yaml #######
-yaml_file = 'Options/Deblurring_Mestormer.yml'
+yaml_file = 'Options/.yml'
 import yaml
 
 try:
